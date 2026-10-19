@@ -7,7 +7,7 @@ find_package(ament_cmake REQUIRED)
 include(ExternalProject)
 ExternalProject_Add(casadi
   GIT_REPOSITORY  https://github.com/casadi/casadi.git
-  GIT_TAG         3.6.7
+  GIT_TAG         3.8.1
   CMAKE_ARGS
     -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/casadi_install
     -DWITH_IPOPT=ON
